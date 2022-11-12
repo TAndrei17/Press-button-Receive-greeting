@@ -1,0 +1,37 @@
+.container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.button { 
+    /*cancel standart style of browser's buttons-->*/
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: #ccc;
+    /*create new own style of button*/
+    
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 30px;
+    background: #4676d7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 2rem;
+    cursor: default;
+    display: inline-block;
+}
+
+/* mouse is on the button */
+.button:hover {
+    background: #1d49aa;
+  }
+  
+/* mouse click */
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
